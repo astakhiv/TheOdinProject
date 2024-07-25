@@ -1,0 +1,22 @@
+img {
+    width: 200px;
+    height: auto;
+}
+
+.container {
+    background-color: pink;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+}
+
+.island:nth-child(1) {
+    align-self: flex-start;
+}
+.island:nth-child(2) {
+    align-self: center;
+}
+.island:nth-child(3) {
+    align-self: flex-end;
+}
+
